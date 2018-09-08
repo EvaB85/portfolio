@@ -1,0 +1,8 @@
+.sidebar {
+  background: violet;
+  flex-basis: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
