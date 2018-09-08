@@ -3,3 +3,11 @@
   min-width: 100vw;
   justify-content: space-between;
 }
+
+.navbar {
+  background: violet;
+}
+
+.sidebar-footer {
+  background: limegreen;
+}

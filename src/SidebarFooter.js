@@ -2,7 +2,9 @@ import React from 'react';
 
 const SidebarFooter = (props) => {
   return (
-    <p>Here is your Footer!</p>
+    <div className="sidebar-footer">
+      <p>Here is your Footer!</p>
+    </div>
   )
 }
 

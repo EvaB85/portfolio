@@ -3,7 +3,7 @@ import React from 'react';
 
 const Navbar = (props) => {
   return (
-    <div>
+    <div className="navbar">
       <h1>EBDESIGN</h1>
       <ul>
         <li>Home</li>
