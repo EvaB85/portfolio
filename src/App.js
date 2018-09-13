@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
-import './css/App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './css/App.min.css';
 import Sidebar from './Sidebar';
 import Main from './Main';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Sidebar />
-        <Main />
-      </div>
+      <Router>
+        <div className="App">
+          <Sidebar />
+          <Main />
+        </div>
+      </Router>
     );
   }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './css/Main.css';
+import MainTop from './MainTop';
+import MainBottom from './MainBottom';
+
 //statefull Component
 class Main extends Component {
   constructor(props) {
@@ -9,7 +11,8 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        <h1>This is main</h1>
+        <MainTop />
+        <MainBottom />
       </div>
     )
   }
