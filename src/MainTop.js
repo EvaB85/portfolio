@@ -12,8 +12,7 @@ class MainTop extends Component {
   render() {
     return (
       <div className="main__top">
-        <h1>On all MAIN top pages</h1>
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/skills" component={Skills} />
       </div>
     )
