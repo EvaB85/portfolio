@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+//stateful component
 
 class BottomBarProjects extends Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   render() {
     return (
-      <div>Tjos os the bottom bar projecgts</div>
+      <div className="bottom-bar-projects">
+        <Link className="projects-box projects-box--fitness-trails" to="/projects/fitness-trails">FITNESS TRAILS APP</Link>
+        <Link className="projects-box projects-box--monch-project" to="/projects/monch-project">MONCH! MONCH! MONCH!</Link>
+        <Link className="projects-box projects-box--moodsic" to="/projects/moodsic">MOODSIC</Link>
+      </div>
     )
   }
-}
+};
 
 export default BottomBarProjects;

@@ -26,6 +26,8 @@ img {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  box-shadow: .3em 0 1.4em rgba(0,0,0,.3);
+  z-index: 10;
 
   &__navbar {
     background: #eee;
@@ -48,11 +50,13 @@ img {
     background: rgba(223, 195, 217, .3);
     color: rgb(245, 166, 199);
     height: 65vh;
+    padding-left: 2em;
   }
 
   &__bottom {
     background: rgb(218, 242, 242);
     height: 35vh;
+    padding-left: 2em;
   }
 }
 

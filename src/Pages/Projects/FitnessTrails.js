@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FitnessTrails extends from Component {
+class FitnessTrails extends Component {
   constructor(props) {
     super(props)
 
