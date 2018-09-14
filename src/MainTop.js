@@ -11,7 +11,8 @@ class MainTop extends Component {
   render() {
     return (
       <div className="main__top">
-        <h1>This is the MAIN top</h1>
+        <h1>EVA BARRETT</h1>
+        <h2>WEB DEVELOPER</h2>
         <Route path="/skills" component={Skills} />
       </div>
     )

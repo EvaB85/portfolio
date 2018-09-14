@@ -13,11 +13,13 @@
   min-height: 100vh;
 
   &__navbar {
-    background: violet;
+    background: white;
+    flex-basis: 90vh;
   }
 
   &__footer {
-    background: limegreen;
+    background: rgba(223, 195, 217, .2);
+    flex-basis: 10vh;
   }
 }
 
@@ -28,13 +30,13 @@
   justify-content: space-between;
 
   &__top {
-    background: black;
-    color: white;
+    background: rgba(223, 195, 217, .3);
+    color: rgb(245, 166, 199);
     height: 65vh;
   }
 
   &__bottom {
-    background: lightblue;
+    background: rgb(218, 242, 242);
     height: 35vh;
   }
 }
@@ -48,16 +50,24 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: yellow;
+  background: rgb(223, 195, 217);
   height: 100%;
 }
 
 .skills-box {
   height: 70%;
   width: 15%;
-  background: purple;
+  background: rgba(255, 254, 255, 0.49);
   border-radius: 2em 2em 2em 0;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+li {
+  display: flex;
+  // flex-direction: column;
+  // align-self: stretch;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
