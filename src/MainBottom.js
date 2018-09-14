@@ -11,7 +11,6 @@ class MainBottom extends Component {
   render() {
     return (
       <div className="main__bottom">
-        <h1>This is the MAIN bottom</h1>
         <Route path="/skills" component={BottomBarSkills} />
       </div>
     )

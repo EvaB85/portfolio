@@ -6,7 +6,7 @@
 
 .sidebar {
   /* background-image: url("https://subtlepatterns.com/patterns/sativa.png"); */
-  flex-basis: 30vw;
+  flex-basis: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,22 +22,42 @@
 }
 
 .main {
-  background: rgb(242, 225, 242);
-  flex-basis: 70vw;
+  flex-basis: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__top {
-    background: pink;
+    background: black;
+    color: white;
+    height: 65vh;
   }
 
   &__bottom {
-    background: orange;
+    background: lightblue;
+    height: 35vh;
   }
 }
 
 .skills {
   color: white;
   background-image: url("https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a8c2864829b36d67d97b20234c853ec8&auto=format&fit=crop&w=1415&q=80");
+}
+
+.bottom-bar-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: yellow;
+  height: 100%;
+}
+
+.skills-box {
+  height: 70%;
+  width: 15%;
+  background: purple;
+  border-radius: 2em 2em 2em 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
