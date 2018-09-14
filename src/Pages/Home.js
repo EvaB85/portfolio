@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 
 
 //statefull Component
@@ -11,6 +12,7 @@ class Home extends Component {
     return (
       <div className="home">
         <h1>Home</h1>
+        <img src="/img/profilepic1.jpg" />
       </div>
     )
   }
