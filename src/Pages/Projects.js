@@ -15,8 +15,8 @@ class Projects extends Component {
       <div className="projects">
         <h1>Projects</h1>
         <Route path="/projects/fitness-trails" component={FitnessTrails} />
-        <Route path="/projects/monch-project" component={MonchProject} />
         <Route path="/projects/moodsic" component={Moodsic} />
+        <Route path="/projects/monch-project" component={MonchProject} />
       </div>
     )
   }

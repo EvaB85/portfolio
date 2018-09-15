@@ -1,3 +1,22 @@
+
+%text-bubble-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(223, 195, 217);
+  height: 100%;
+}
+
+%text-bubble {
+  height: 70%;
+  width: 15%;
+  background: rgba(255, 254, 255, 0.49);
+  border-radius: 2em 2em 2em 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
 li {
   display: flex;
   // flex-direction: column;
@@ -50,13 +69,23 @@ img {
     background: rgba(223, 195, 217, .3);
     color: rgb(245, 166, 199);
     height: 65vh;
-    padding-left: 2em;
+    // padding-left: 2em;
   }
 
   &__bottom {
     background: rgb(218, 242, 242);
     height: 35vh;
-    padding-left: 2em;
+    // padding-left: 2em;
+  }
+}
+
+.bottom-bar-home {
+  color: purple;
+  font-size: 25px;
+
+  img {
+    float: left;
+    margin: 0 .5em .5em .5em;
   }
 }
 
@@ -70,20 +99,24 @@ img {
   }
 }
 
-.bottom-bar-skills {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: rgb(223, 195, 217);
+.projects {
+  color: white;
   height: 100%;
+  background-image: url("/img/spaceneedle.jpg")
+}
+
+.bottom-bar-projects {
+  @extend %text-bubble-container;
+}
+
+.bottom-bar-skills {
+  @extend %text-bubble-container;
+}
+
+.projects-box {
+  @extend %text-bubble;
 }
 
 .skills-box {
-  height: 70%;
-  width: 15%;
-  background: rgba(255, 254, 255, 0.49);
-  border-radius: 2em 2em 2em 0;
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
+  @extend %text-bubble;
 }

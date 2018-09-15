@@ -9,7 +9,7 @@ const Navbar = (props) => {
       <h1>EBDESIGN</h1>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/projects/moodsic">Projects</Link></li>
         <li><Link to="/skills/coding">Skills</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <a class="resume" href='img/EB_RESUME.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
