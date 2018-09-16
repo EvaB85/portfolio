@@ -8,11 +8,11 @@ const Navbar = (props) => {
     <div className="sidebar__navbar">
       <h1>EBDESIGN</h1>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects/moodsic">Projects</Link></li>
-        <li><Link to="/skills/coding">Skills</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <a class="resume" href='img/EB_RESUME.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/projects/moodsic">PROJECTS</Link></li>
+        <li><Link to="/skills/coding">SKILLS</Link></li>
+        <li><Link to="/contact">CONTACT</Link></li>
+        <a class="resume" href='img/EB_RESUME.pdf' target='_blank' rel="noopener noreferrer">RESUME</a>
       </ul>
     </div>
   )

@@ -1,4 +1,3 @@
-
 %text-bubble-container {
   display: flex;
   justify-content: space-around;
@@ -17,6 +16,11 @@
   color: black;
 }
 
+body {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+}
+
 li {
   display: flex;
   // flex-direction: column;
@@ -30,6 +34,22 @@ img {
   width:250px;
   length: 250px;
   border: solid .2em gray;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    background: rgb(91, 217, 202);
+  }
+
+  &:visited {
+    color: none;
+  }
+
+  &:active {
+    color: limegreen;
+  }
 }
 
 .App {
@@ -102,7 +122,26 @@ img {
 .projects {
   color: white;
   height: 100%;
-  background-image: url("/img/spaceneedle.jpg")
+  // background-image: url("/img/spaceneedle.jpg")
+  background-image: url("https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=62d489ce4449d4007bb9fbba9e681baf&auto=format&fit=crop&w=1932&q=80");
+}
+
+.home-page-text{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: -1px 0 black;
+  color: rgb(75, 63, 71);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+
+  &__icons {
+    font-size: 30px;
+  }
 }
 
 .bottom-bar-projects {
@@ -115,6 +154,8 @@ img {
 
 .projects-box {
   @extend %text-bubble;
+  height: 80%;
+  width: 25%;
 }
 
 .skills-box {

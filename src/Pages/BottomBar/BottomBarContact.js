@@ -7,7 +7,7 @@ class BottomBarContact extends Component {
 
   render() {
     return (
-      <h1>Bottom under belly of bottom bar contact me now hole</h1>
+      <h1>bottom bar contact section</h1>
     )
   }
 }
