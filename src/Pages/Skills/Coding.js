@@ -7,8 +7,13 @@ class Coding extends Component {
 
   render() {
     return (
-      <div>
-        <p>Here is coding</p>
+      <div className="skills__icon-wrapper">
+        <i class="fab fa-react"></i>
+        <i class="fab fa-js-square"></i>
+        <i class="fab fa-css3-alt"></i>
+        <i class="fab fa-html5"></i>
+        <i class="fab fa-sass"></i>
+        <i class="fab fa-python"></i>
       </div>
     )
   }
