@@ -29,13 +29,6 @@ li {
   margin-bottom: 2em;
 }
 
-img {
-  background: black;
-  width:250px;
-  length: 250px;
-  border: solid .2em gray;
-}
-
 a {
   color: black;
   text-decoration: none;
@@ -104,12 +97,17 @@ a {
 }
 
 .bottom-bar-home {
-  color: purple;
-  font-size: 25px;
+  color: gray;
+
+  p {
+    font-size: 22px;
+  }
 
   img {
     float: left;
+    width: 15%;
     margin: 0 .5em .5em .5em;
+    border-radius: 1em;
   }
 }
 
