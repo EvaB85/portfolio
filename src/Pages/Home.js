@@ -10,7 +10,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="home-page-text">
+      <div className="home-page">
         <h1>Eva Barrett</h1>
         <h2>Web Developer</h2>
       </div>

@@ -130,11 +130,23 @@ a {
   background-image: url("https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=62d489ce4449d4007bb9fbba9e681baf&auto=format&fit=crop&w=1932&q=80");
 }
 
-.home-page-text{
+.home-page {
+  background-image: url("https://images.unsplash.com/photo-1492227982298-644b223e666d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a1c0afa43d33a3900e09400bd22f77b0&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   font-size: 30px;
   text-shadow: -1px 0 black;
   color: rgb(75, 63, 71);
+  // background: teal;
+  height: 100%;
+
+  h1 {
+    margin-top: 0;
+  }
 }
 
 .icon-container {

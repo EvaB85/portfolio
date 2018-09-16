@@ -8,7 +8,7 @@ class BottomBarHome extends Component {
   render() {
     return (
       <div className="bottom-bar-home">
-        <img src="/img/profilepic1.jpg" />
+          <img src="/img/profilepic1.jpg" />
         <p>Sleep. Meow go back to sleep owner brings food and water
           tries to pet on head, so scratch get sprayed by water because
           bad cat scratch the furniture so attack the child but be a
