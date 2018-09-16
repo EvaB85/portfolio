@@ -27,6 +27,8 @@ body {
 
 li {
   display: flex;
+  // flex-direction: column;
+  // align-self: stretch;
   margin-top: 2em;
   margin-bottom: 2em;
 }
@@ -56,6 +58,7 @@ a {
 }
 
 .sidebar {
+  /* background-image: url("https://subtlepatterns.com/patterns/sativa.png"); */
   flex-basis: 20vw;
   display: flex;
   flex-direction: column;
@@ -93,7 +96,7 @@ a {
 
   &__top {
     background: rgba(223, 195, 217, .3);
-    background-image: url("https://images.unsplash.com/photo-1495312040802-a929cd14a6ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b12706b9ac3e3d4784e617a474f4332a&auto=format&fit=crop&w=1489&q=80");
+    background-image: url("https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a8c2864829b36d67d97b20234c853ec8&auto=format&fit=crop&w=1415&q=80");
     color: rgb(245, 166, 199);
     height: 65vh;
     // padding-left: 2em;
@@ -137,6 +140,8 @@ a {
 }
 
 .home-page {
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
