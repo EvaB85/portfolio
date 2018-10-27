@@ -274,3 +274,13 @@ a {
 .skills-box {
   @extend %text-bubble;
 }
+
+.live-site-link {
+  color: yellow;
+}
+
+.project-title {
+  color: $lightgreen;
+  font-size: 50px;
+  padding: 1em;
+}

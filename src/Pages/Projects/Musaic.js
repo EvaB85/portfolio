@@ -9,8 +9,8 @@ class Musaic extends Component {
   render() {
     return (
       <div>
-        <h2>This is the Musaic component</h2>
-        <a href='http://moodsic11.herokuapp.com/'>Live Site</a>
+        <h2>The Musaic App allows users to create Spotify playlists from their current mood. Current mood is represented by an image which the user uploads. You can edit, save, or share your playlists which have been created through the Spotify application. </h2>
+        <a className='live-site-link' href='http://moodsic11.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Live Site</a>
       </div>
     )
   }

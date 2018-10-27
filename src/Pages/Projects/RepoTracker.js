@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MonchProject extends Component {
+class RepoTracker extends Component {
   constructor(props) {
     super(props)
 
@@ -9,11 +9,11 @@ class MonchProject extends Component {
   render() {
     return (
       <div>
-        <h2>A fun and interactive, two-player game allows users to test their motor skills. Help cookie monster eat as many cookies as possible before the time runs out.</h2>
+        <h2>RepoTracker gives users the ability to track their time spent on their coding repositories. Be able to monitor while you study, work on projects, or just for fun.  </h2>
         <a className='live-site-link' href='' target='_blank' rel='noopener noreferrer'>Live Site</a>
       </div>
     )
   }
 }
 
-export default MonchProject;
+export default RepoTracker;

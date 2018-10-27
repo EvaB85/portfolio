@@ -12,11 +12,11 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="projects">
-        <h1>Projects</h1>
-        <Route path="/projects/fitness-trails" component={FitnessTrails} />
-        <Route path="/projects/musaic" component={Musaic} />
-        <Route path="/projects/monch-project" component={MonchProject} />
+      <div className='projects'>
+        <h1 className='project-title'>Projects</h1>
+        <Route path='/projects/fitness-trails' component={FitnessTrails} />
+        <Route path='/projects/musaic' component={Musaic} />
+        <Route path='/projects/monch-project' component={MonchProject} />
       </div>
     )
   }
