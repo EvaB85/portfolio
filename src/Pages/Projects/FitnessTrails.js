@@ -8,7 +8,9 @@ class FitnessTrails extends Component {
 
   render() {
     return (
-        <h2>This is the fitness trails component</h2>
+      <div>
+        <h2>Fitness Trail is an application that allows users to store their favorite hiking/walking trails in the US.</h2>
+      </div>
     )
   }
 }

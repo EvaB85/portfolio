@@ -14,8 +14,8 @@ class BottomBarProjects extends Component {
           <Link className="projects-box projects-box--repo-tracker" to="/projects/monch-project">
             <p>RepoTracker</p>
           </Link>
-          <Link className="projects-box projects-box--moodsic" to="/projects/moodsic">
-            <p>MOODSIC</p>
+          <Link className="projects-box projects-box--musaic" to="/projects/musaic">
+            <p>Musaic</p>
           </Link>
           <Link className="projects-box projects-box--fitness-trails" to="/projects/fitness-trails">
             <p>Fitness Trails</p>

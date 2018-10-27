@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 
 
-//statefull Component
+//stateful Component
 class Home extends Component {
   constructor(props) {
     super(props)
@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div className="home-page">
         <h1>Eva Barrett</h1>
-        <h2>Web Developer</h2>
+        <h3>Web Developer</h3>
       </div>
     )
   }

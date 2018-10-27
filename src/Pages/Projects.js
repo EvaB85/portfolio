@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import FitnessTrails from './Projects/FitnessTrails';
 import MonchProject from './Projects/MonchProject';
-import Moodsic from './Projects/Moodsic';
+import Musaic from './Projects/Musaic';
 
 //statefull Component
 class Projects extends Component {
@@ -15,7 +15,7 @@ class Projects extends Component {
       <div className="projects">
         <h1>Projects</h1>
         <Route path="/projects/fitness-trails" component={FitnessTrails} />
-        <Route path="/projects/moodsic" component={Moodsic} />
+        <Route path="/projects/musaic" component={Musaic} />
         <Route path="/projects/monch-project" component={MonchProject} />
       </div>
     )
