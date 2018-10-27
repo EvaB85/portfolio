@@ -3,13 +3,14 @@ $lightgreen: rgb(103, 217, 162);
 $lightpink: rgb(223, 195, 217);
 $lightgray: #eee;
 $darkgray: #333;
+$lightpurple: rgb(190, 145, 228);
 
 %text-bubble-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  background: $lightpink;
+  background: rgb(161, 212, 192);
 }
 
 %text-bubble {
@@ -44,10 +45,6 @@ a {
 
   &:visited {
     color: none;
-  }
-
-  &:active {
-    color: limegreen;
   }
 }
 
