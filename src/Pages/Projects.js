@@ -12,16 +12,16 @@ class Projects extends Component {
   }
 
   render() {
-    console.log(this.props.location);
-    const nameMap = {
-      '/projects/repo-tracker': 'Repo Tracker',
-      '/projects/fitness-trails': 'Fitness Trails',
+    console.log(this.props.location.pathname);
+    const projectsNameMap = {
+      '/projects/repo-tracker': 'RepoTracker',
       '/projects/musaic': 'Musaic',
-      '/projects/monch-project': 'Monch Monch Monch'
-    };
+      '/projects/fitness-trails': 'Fitness Trails',
+      '/projects/monch-project': 'Monch-Monch-Monch'
+    }
     return (
       <div className='projects'>
-        <h1 className='project-title'>{nameMap[this.props.location.pathname]}</h1>
+        <h1 className='project-title'>{projectsNameMap[this.props.location.pathname]}</h1>
         <Route path='/projects/repo-tracker' component={RepoTracker} />
         <Route path='/projects/fitness-trails' component={FitnessTrails} />
         <Route path='/projects/musaic' component={Musaic} />
