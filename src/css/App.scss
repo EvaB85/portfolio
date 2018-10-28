@@ -137,6 +137,8 @@ a {
   background: rgba(0,0,0,.3);
   text-align: center;
   height: 100%;
+  padding: 1em;
+  box-sizing: border-box;
 
   .tech-skills {
     width: 10%;
@@ -144,6 +146,7 @@ a {
 
   h1 {
     margin-top: 0;
+    margin-bottom: 2em;
   }
 
   &__icon-wrapper {
@@ -281,6 +284,10 @@ a {
 
 .skills-box {
   @extend %text-bubble;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .live-site-link, .github-site-link {
@@ -293,4 +300,15 @@ a {
   color: $lightgreen;
   font-size: 50px;
   margin-bottom: 10px;
+}
+
+.hobby-list {
+
+  &__right {
+
+  }
+
+  &__left {
+
+  }
 }

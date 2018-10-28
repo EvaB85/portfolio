@@ -12,7 +12,7 @@ class BottomBarSkills extends Component {
       <div className="bottom-bar-skills">
         <Link className="skills-box skills-box--coding" to="/skills/coding">CODING</Link>
         <Link className="skills-box skills-box--photography" to="/skills/photography">PHOTOGRAPHY</Link>
-        <Link className="skills-box skills-box--art" to="/skills/art">ART</Link>
+        <Link className="skills-box skills-box--hobbies" to="/skills/hobbies">HOBBIES</Link>
       </div>
     )
   }

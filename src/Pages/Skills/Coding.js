@@ -8,7 +8,7 @@ class Coding extends Component {
   render() {
     return (
       <div>
-        <h3>Top Technologies</h3>
+        <h1>Top Technologies</h1>
         <div className='skills__icon-wrapper'>
           <i className='tech-skills fab fa-react'></i>
           <i className='tech-skills fab fa-js-square'></i>
