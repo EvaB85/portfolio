@@ -303,12 +303,60 @@ a {
 }
 
 .hobby-list {
+  font-size: 20px;
 
   &__right {
-
+    animation: slide 23s infinite;
   }
 
   &__left {
+    transform: translateX(85%);
+    animation: slide2 23s infinite;
+  }
+}
 
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+    color: white;
+  }
+  15% {
+    transform: translateX(0);
+    color: white;
+  }
+  50% {
+    transform: translateX(90%);
+    color: orange;
+  }
+  65% {
+    transform: translateX(90%);
+    color: orange;
+  }
+  100% {
+    transform: translateX(0);
+    color: white;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateX(85%);
+    color: white;
+  }
+  15% {
+    transform: translateX(85%);
+    color: white;
+  }
+  50% {
+    transform: translateX(0);
+    color: orange;
+  }
+  65% {
+    transform: translateX(0);
+    color: orange;
+  }
+  100% {
+    transform: translateX(85%);
+    color: white;
   }
 }
