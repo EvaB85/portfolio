@@ -7,13 +7,28 @@ class Coding extends Component {
 
   render() {
     return (
-      <div className="skills__icon-wrapper">
-        <i className="fab fa-react"></i>
-        <i className="fab fa-js-square"></i>
-        <i className="fab fa-css3-alt"></i>
-        <i className="fab fa-html5"></i>
-        <i className="fab fa-sass"></i>
-        <i className="fab fa-python"></i>
+      <div>
+        <h3>Top Technologies</h3>
+        <div className='skills__icon-wrapper'>
+          <i className='tech-skills fab fa-react'></i>
+          <i className='tech-skills fab fa-js-square'></i>
+          <i className='tech-skills fab fa-css3-alt'></i>
+          <i className='tech-skills fab fa-html5'></i>
+          <i className='tech-skills fab fa-sass'></i>
+        </div>
+        <div className='icon-names'>
+          <p className='tech-skills'>REACT</p>
+          <p className='tech-skills'>JavaScript</p>
+          <p className='tech-skills'>CSS</p>
+          <p className='tech-skills'>HTML</p>
+          <p className='tech-skills'>Sass</p>
+        </div>
+        <p>
+          I am a front end leaning web developer with strong skills in JavaScript, React,
+          HTML, and CSS. Having exceptional interpersonal skills, I thrive in a team
+          environment. My passion and creativity along with my keen eye for the
+          visual aspect of a website creates user friendly applications.
+        </p>
       </div>
     )
   }

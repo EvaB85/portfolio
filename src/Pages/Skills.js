@@ -12,7 +12,7 @@ class Skills extends Component {
 
   render() {
     return (
-      <div className="skills">
+      <div className='skills'>
         <h1>Skills</h1>
         <Route path="/skills/coding" component={Coding} />
         <Route path="/skills/photography" component={Photography} />
