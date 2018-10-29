@@ -241,7 +241,7 @@ a {
   opacity: .7;
 
   &--left {
-    left: 20%;
+    left: 13%;
   }
 
   &--right {
@@ -391,4 +391,13 @@ a {
 
 .photo-box {
   display: flex;
+}
+
+.more-skills-box {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    background: plum;
+  }
 }

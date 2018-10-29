@@ -23,12 +23,58 @@ class Coding extends Component {
           <p className='tech-skills'>HTML</p>
           <p className='tech-skills'>Sass</p>
         </div>
-        <p>
-          I am a front end leaning web developer with strong skills in JavaScript, React,
-          HTML, and CSS. Having exceptional interpersonal skills, I thrive in a team
-          environment. My passion and creativity along with my keen eye for the
-          visual aspect of a website creates user friendly applications.
-        </p>
+        <div className='more-skills-box'>
+          <div>
+             <h2 className='more-skills'>Languages </h2>
+            <ul>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>JSX</li>
+              <li>EJS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Sass</li>
+            </ul>
+          </div>
+          <div>
+             <h2 className='more-skills'>Frameworks </h2>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>Django</li>
+            </ul>
+          </div>
+          <div>
+             <h2 className='more-skills'>Libraries </h2>
+            <ul>
+              <li>React.js</li>
+              <li>Redux</li>
+              <li>jQuery</li>
+              <li>Materialize</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div>
+             <h2 className='more-skills'>Data </h2>
+            <ul>
+              <li>SQL</li>
+              <li>PostgreSQL</li>
+              <li>Sequelize</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+          <div>
+             <h2 className='more-skills'>Extra </h2>
+            <ul>
+              <li>RESTful</li>
+              <li>APIs</li>
+              <li>AJAX</li>
+              <li>JSON</li>
+              <li>Authentication</li>
+            </ul>
+          </div>
+        </div>
       </div>
     )
   }
