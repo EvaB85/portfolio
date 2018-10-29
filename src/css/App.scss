@@ -55,7 +55,7 @@ a {
 }
 
 .sidebar {
-  flex-basis: 20vw;
+  flex-basis: 13vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -98,14 +98,16 @@ a {
 }
 
 .main {
-  flex-basis: 80vw;
+  flex-basis: 87vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   &__top {
     //MAAAAAAIIIN background IMMMMAGGE
-    background-image: url("https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a8c2864829b36d67d97b20234c853ec8&auto=format&fit=crop&w=1415&q=80");
+    background-image: url('./bg-art.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 65vh;
     position: relative;
   }
@@ -361,18 +363,26 @@ a {
   }
 }
 
+.photo-wrap {
+  max-width: 82vw;
+  margin: 7vh auto 0;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.5);
+  border: 15px solid black;
+  box-shadow: 0 0 10px rgba(245,245,245,.2);
+
+  &__inner-border {
+    max-width: 82vw;
+    border: 2px solid #bbb;
+    overflow-x: scroll;
+  }
+}
+
 .photo {
-  width: 150px;
+  margin-right: 2vw;
+  height: 300px;
 }
 
 .photo-box {
-  max-height: 80vh;
-  width: 70%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-around;
-  flex-wrap: wrap;
-  background: white;
 }
