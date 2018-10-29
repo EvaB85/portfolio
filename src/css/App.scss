@@ -308,15 +308,16 @@ a {
   font-size: 20px;
 }
 
-.repo-tracker-box {
-  background: black;
-  
+.project-box {
   h2 {
+    color: $lightgreen;
     padding-top: 1em;
     font-size: 30px;
   }
   p {
-    font-size: 24px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-left: 3em;
   }
 }
 
@@ -423,4 +424,15 @@ a {
 
 .contact-info {
   margin-left: 2em;
+  h1 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 18px;
+    margin-left: 1em;
+  }
+
+  a {
+    font-size: 8px;
+  }
 }
