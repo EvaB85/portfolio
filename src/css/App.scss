@@ -148,7 +148,7 @@ a {
 
   h1 {
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
   }
 
   &__icon-wrapper {
@@ -396,8 +396,11 @@ a {
 .more-skills-box {
   display: flex;
   justify-content: space-between;
+  background: plum;
 
   ul {
-    background: plum;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 }

@@ -28,7 +28,6 @@ class Coding extends Component {
              <h2 className='more-skills'>Languages </h2>
             <ul>
               <li>JavaScript</li>
-              <li>Python</li>
               <li>JSX</li>
               <li>EJS</li>
               <li>HTML</li>
