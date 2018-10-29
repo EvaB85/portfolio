@@ -9,13 +9,13 @@ class BottomBarHome extends Component {
     return (
       <div className="bottom-bar-home">
           <img src="/img/profilepic1.jpg" />
-        <p>Sleep. Meow go back to sleep owner brings food and water
-          tries to pet on head, so scratch get sprayed by water because
-          bad cat scratch the furniture so attack the child but be a
-          nyan cat, w mow mow mow mow success nowattack human poop in the
-          taco cat litter kitter kitty litty little kitten big roar roar
-          feed me all of a sudden cat goes crazy. Lick arm hair. Really
-          likes hummus.
+        <p>
+          I am a design-driven frontend web developer with a passion for creating user
+          engaging websites. With my love of design and photography, I deliver beautiful
+          and easy-to-use websites that my clients request. Having a background in
+          education and sales allows me to easily consult with customers so I
+          can create a more personalized website. With strong skills in HTML,
+          CSS, SASS, and JavaScript I bring to life websites.
         </p>
       </div>
     )

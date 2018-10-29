@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home-page">
-        <h1>Eva Barrett</h1>
+        <h1>Eva Barre<span>t</span>t</h1>
         <h3>Web Developer</h3>
       </div>
     )
