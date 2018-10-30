@@ -105,7 +105,7 @@ a {
 
   &__top {
     //MAAAAAAIIIN background IMMMMAGGE
-    background-image: url('./bg-art.jpeg');
+    background-image: url('../img/bg-art.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 65vh;
@@ -273,22 +273,22 @@ a {
   }
 
   &--musaic {
-    background-image: url('/img/Musaic.png');
+    background-image: url('../img/Musaic.png');
     background-size: cover;
   }
 
   &--repo-tracker {
-    background-image: url('/img/RepoTracker.png');
+    background-image: url('../img/RepoTracker.png');
     background-size: cover;
   }
 
   &--fitness-trails {
-    background-image: url('/img/FitnessTrails.png');
+    background-image: url('../img/FitnessTrails.png');
     background-size: cover;
   }
 
   &--monch {
-    background-image: url('/img/Monch.png');
+    background-image: url('../img/Monch.png');
     background-size: cover;
   }
 }
