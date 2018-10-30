@@ -71,7 +71,8 @@ a {
       padding-left: .8em;
 
       @media screen and (max-width: 1000px) {
-        font-size: 15px;
+        // font-size: 15px;
+        font-size: 0.938em;
         color: red;
       }
     }
@@ -83,7 +84,8 @@ a {
     a {
 
       @media screen and (max-width: 1000px) {
-        font-size: 10px;
+        // font-size: 10px;
+        font-size: 0.625em;
         color: green;
       }
     }
