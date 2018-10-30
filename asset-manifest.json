@@ -1,7 +1,11 @@
 {
-  "main.css": "static/css/main.27f39572.css",
-  "main.css.map": "static/css/main.27f39572.css.map",
-  "main.js": "static/js/main.197f1cb3.js",
-  "main.js.map": "static/js/main.197f1cb3.js.map",
+  "main.css": "static/css/main.25dd30ab.css",
+  "main.css.map": "static/css/main.25dd30ab.css.map",
+  "main.js": "static/js/main.c0baa1ba.js",
+  "main.js.map": "static/js/main.c0baa1ba.js.map",
+  "static/media/FitnessTrails.png": "static/media/FitnessTrails.58f178da.png",
+  "static/media/Monch.png": "static/media/Monch.dfc956b0.png",
+  "static/media/Musaic.png": "static/media/Musaic.3dde44bf.png",
+  "static/media/RepoTracker.png": "static/media/RepoTracker.4ea2e9f7.png",
   "static/media/bg-art.jpeg": "static/media/bg-art.5fe0e9a8.jpeg"
 }
