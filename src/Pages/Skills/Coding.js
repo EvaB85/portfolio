@@ -7,7 +7,7 @@ class Coding extends Component {
 
   render() {
     return (
-      <div>
+      <div className='coding-page'>
         <h1>Top Technologies</h1>
         <div className='skills__icon-wrapper'>
           <i className='tech-skills fab fa-react'></i>

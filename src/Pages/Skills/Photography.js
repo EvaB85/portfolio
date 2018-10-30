@@ -12,6 +12,8 @@ class Photography extends Component {
         <p>I enjoy taking landscape and architecture photographs. </p>
         <div className='photo-wrap'>
           <div className='photo-wrap__inner-border'>
+            <i className="arrow2 arrow2--left fas fa-chevron-left"></i>
+            <i className="arrow2 arrow2--right fas fa-chevron-right"></i>
             <div className='photo-box'>
               <img className='photo' src='../img/Photography/bigtree.jpg' alt='name of photo'></img>
               <img className='photo' src='../img/Photography/nords.jpg' alt='name of photo'></img>
