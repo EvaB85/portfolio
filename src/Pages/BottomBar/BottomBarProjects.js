@@ -11,16 +11,16 @@ class BottomBarProjects extends Component {
     return (
       <div className='bottom-bar-projects--outer'>
         <div className="bottom-bar-projects">
-          <Link className="projects-box projects-box--repo-tracker" to="/projects/repo-tracker">
+          <Link className="projects-box projects-box--repo-tracker" to="/portfolio/projects/repo-tracker">
             <p>RepoTracker</p>
           </Link>
-          <Link className="projects-box projects-box--musaic" to="/projects/musaic">
+          <Link className="projects-box projects-box--musaic" to="/portfolio/projects/musaic">
             <p>Musaic</p>
           </Link>
-          <Link className="projects-box projects-box--fitness-trails" to="/projects/fitness-trails">
+          <Link className="projects-box projects-box--fitness-trails" to="/portfolio/projects/fitness-trails">
             <p>Fitness Trails</p>
           </Link>
-          <Link className="projects-box projects-box--monch" to="/projects/monch-project">
+          <Link className="projects-box projects-box--monch" to="/portfolio/projects/monch-project">
             <p>MONCH! MONCH! MONCH!</p>
           </Link>
         </div>

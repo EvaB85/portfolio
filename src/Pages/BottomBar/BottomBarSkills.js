@@ -10,9 +10,9 @@ class BottomBarSkills extends Component {
   render() {
     return (
       <div className="bottom-bar-skills">
-        <Link className="skills-box skills-box--coding" to="/skills/coding">CODING</Link>
-        <Link className="skills-box skills-box--photography" to="/skills/photography">PHOTOGRAPHY</Link>
-        <Link className="skills-box skills-box--hobbies" to="/skills/hobbies">HOBBIES</Link>
+        <Link className="skills-box skills-box--coding" to="/portfolio/skills/coding">CODING</Link>
+        <Link className="skills-box skills-box--photography" to="/portfolio/skills/photography">PHOTOGRAPHY</Link>
+        <Link className="skills-box skills-box--hobbies" to="/portfolio/skills/hobbies">HOBBIES</Link>
       </div>
     )
   }

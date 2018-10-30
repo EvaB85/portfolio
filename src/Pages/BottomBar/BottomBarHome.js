@@ -8,7 +8,7 @@ class BottomBarHome extends Component {
   render() {
     return (
       <div className="bottom-bar-home">
-          <img src="/img/profilepic1.jpg" />
+          <img src="../../img/profilepic1.jpg" />
         <p>
           I am a design-driven frontend web developer with a passion for creating user
           engaging websites. With my love of design and photography, I deliver beautiful
