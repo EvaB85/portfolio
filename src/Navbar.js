@@ -8,9 +8,9 @@ const Navbar = (props) => {
     <div className='sidebar__navbar'>
       <ul>
         <li><Link to='/portfolio'>HOME</Link></li>
-        <li><Link to='/projects/repo-tracker'>PROJECTS</Link></li>
-        <li><Link to='/skills/coding'>SKILLS</Link></li>
-        <li><Link to='/contact'>CONTACT</Link></li>
+        <li><Link to='/portfolio/projects/repo-tracker'>PROJECTS</Link></li>
+        <li><Link to='/portfolio/skills/coding'>SKILLS</Link></li>
+        <li><Link to='/portfolio/contact'>CONTACT</Link></li>
         <li><a className='resume' href='../img/EB_RESUME.pdf' target='_blank' rel='noopener noreferrer'>RESUME</a></li>
       </ul>
     </div>

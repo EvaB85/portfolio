@@ -15,9 +15,9 @@ class MainBottom extends Component {
     return (
       <div className="main__bottom">
         <Route exact path="/portfolio" component={BottomBarHome} />
-        <Route path="/projects" component={BottomBarProjects} />
-        <Route path="/skills" component={BottomBarSkills} />
-        <Route path="/contact" component={BottomBarContact} />
+        <Route path="/portfolio/projects" component={BottomBarProjects} />
+        <Route path="/portfolio/skills" component={BottomBarSkills} />
+        <Route path="/portfolio/contact" component={BottomBarContact} />
       </div>
     )
   }

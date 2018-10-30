@@ -15,10 +15,10 @@ class Photography extends Component {
             <i className="arrow2 arrow2--left fas fa-chevron-left"></i>
             <i className="arrow2 arrow2--right fas fa-chevron-right"></i>
             <div className='photo-box'>
-              <img className='photo' src='../../img/Photography/bigtree.jpg' alt='name of photo'></img>
-              <img className='photo' src='../../img/Photography/nords.jpg' alt='name of photo'></img>
-              <img className='photo' src='../../img/Photography/spaceneedle.jpg' alt='name of photo'></img>
-              <img className='photo' src='../../img/Photography/subway.jpg' alt='name of photo'></img>
+              <img className='photo' src='../../img/Photography/bigtree.jpg' alt='bigtree'></img>
+              <img className='photo' src='../../img/Photography/nords.jpg' alt='nordstroms'></img>
+              <img className='photo' src='../../img/Photography/spaceneedle.jpg' alt='spaceneedle'></img>
+              <img className='photo' src='../../img/Photography/subway.jpg' alt='subway'></img>
               <img className='photo' src='../../img/Photography/sunset.jpg' alt='name of photo'></img>
               <img className='photo' src='../../img/Photography/waterworks.jpg' alt='name of photo'></img>
               <img className='photo' src='../../img/Photography/mopop.jpg' alt='name of photo'></img>

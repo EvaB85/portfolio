@@ -15,9 +15,9 @@ class MainTop extends Component {
     return (
       <div className="main__top">
         <Route exact path="/portfolio" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/skills" component={Skills} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/portfolio/projects" component={Projects} />
+        <Route path="/portfolio/skills" component={Skills} />
+        <Route path="/portfolio/contact" component={Contact} />
       </div>
     )
   }
