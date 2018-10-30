@@ -1,3 +1,3 @@
 # My Portfolio
 
-This is my portfolio
+I built this site using React and SASS.
