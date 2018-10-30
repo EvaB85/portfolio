@@ -15,7 +15,7 @@ class BottomBarHome extends Component {
           and easy-to-use websites that my clients request. Having a background in
           education and sales allows me to easily consult with customers so I
           can create a more personalized website. With strong skills in HTML,
-          CSS, SASS, and JavaScript I bring to life websites.
+          CSS, SASS, and JavaScript, I bring to life websites.
         </p>
       </div>
     )

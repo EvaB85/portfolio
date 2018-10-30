@@ -9,7 +9,7 @@ class Photography extends Component {
     return (
       <div className='photography-page'>
         <h1>Photography</h1>
-        <p>I enjoy taking landscape and architecture photographs. </p>
+        <p>I enjoy taking photographs of landscape and architecture.</p>
         <div className='photo-wrap'>
           <div className='photo-wrap__inner-border'>
             <i className="arrow2 arrow2--left fas fa-chevron-left"></i>
