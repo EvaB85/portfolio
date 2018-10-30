@@ -13,9 +13,9 @@ class Skills extends Component {
   render() {
     return (
       <div className='skills'>
-        <Route path="/skills/coding" component={Coding} />
-        <Route path="/skills/photography" component={Photography} />
-        <Route path="/skills/hobbies" component={Hobbies} />
+        <Route path="/portfolio/skills/coding" component={Coding} />
+        <Route path="/portfolio/skills/photography" component={Photography} />
+        <Route path="/portfolio/skills/hobbies" component={Hobbies} />
       </div>
     )
   }
