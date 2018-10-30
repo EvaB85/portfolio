@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://evab85.github.io/porfolio/",
+  "homepage": "https://evab85.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "rand-num-gen": "^1.0.21",

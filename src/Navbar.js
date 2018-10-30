@@ -7,7 +7,7 @@ const Navbar = (props) => {
   return (
     <div className='sidebar__navbar'>
       <ul>
-        <li><Link to='/'>HOME</Link></li>
+        <li><Link to='/portfolio'>HOME</Link></li>
         <li><Link to='/projects/repo-tracker'>PROJECTS</Link></li>
         <li><Link to='/skills/coding'>SKILLS</Link></li>
         <li><Link to='/contact'>CONTACT</Link></li>
