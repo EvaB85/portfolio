@@ -10,7 +10,7 @@ $lightpurple: rgb(190, 145, 228);
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  background: rgba(76, 191, 146, 0.5);
+  background: rgb(76, 191, 146);
 }
 
 %text-bubble {
@@ -143,6 +143,7 @@ a {
   height: 100%;
   padding: 1em;
   box-sizing: border-box;
+  overflow: scroll;
 
   .tech-skills {
     width: 10%;
@@ -175,6 +176,7 @@ a {
   background: rgba(0,0,0,.4);
   color: white;
   padding: 1.5em;
+  overflow: scroll;
 
   h1 {
     margin-top: 0;
@@ -187,6 +189,7 @@ a {
   padding-top: 6em;
   background: rgba(0,0,0,.4);
   color: white;
+  overflow: scroll;
 
   h1 {
     margin-left: 2em;
@@ -204,6 +207,7 @@ a {
   color: white;
   letter-spacing: .4em;
   padding: .5em 1.5em 1em 1em;
+  overflow: scroll;
 
   h1 {
     margin: 0;
